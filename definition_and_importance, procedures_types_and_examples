@@ -1,0 +1,54 @@
+## What is Requirement Analysis?
+
+Requirement analysis in Software Quality Assurance (SQA) is the process of examining, understanding, and clarifying software requirements before development and testing begin.
+
+It ensures that all functional and non-functional expectations are clearly defined, testable, and traceable.
+
+## Why It Is Important
+
+- Prevents defects early
+- Helps in writing accurate test cases
+- Avoids rework and reduces project costs
+- Improves team communication
+
+
+## Steps of Requirement Analysis
+
+1. **Collect Requirements**
+   Gather from SRS, user stories, or meetings with stakeholders.
+
+2. **Understand Requirements**
+   Clarify the purpose, expected input/output, and scope.
+
+3. **Identify Gaps or Missing Info**
+   Raise queries for ambiguous or conflicting requirements.
+
+4. **Categorize Requirements**
+   Functional (features) and non-functional (performance, usability).
+
+5. **Prioritize for Testing**
+   Focus on core features and high-risk areas.
+
+6. **Start Test Design**
+   Use the requirements to begin creating test cases and test data.
+
+
+## Types of Requirements in QA
+
+### Functional Requirements
+These define **what the system should do**.
+- Example: "User can reset password via email link."
+
+### Non-functional Requirements
+These define **how the system should behave**.
+- Example: "Login page should load in less than 2 seconds."
+
+## User Story
+
+"As a user, I want to log in using my email and password so I can access my dashboard."
+
+### QA Analysis
+- Positive: Valid email and password
+- Negative: Invalid email/password, empty fields
+- Edge Cases: Special characters in input, SQL injection attempt
+- Questions: Should 'Remember Me' be tested?
